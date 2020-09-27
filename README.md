@@ -1,6 +1,6 @@
-# NodeJS CustomChain
+## NodeJS CustomChain
 
-## To RUN : 
+### To RUN : 
 
-npm install<br>
-node app.js
+<li>npm install<br>
+<li>node app.js
