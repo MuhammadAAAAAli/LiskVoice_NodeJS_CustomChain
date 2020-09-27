@@ -36,14 +36,14 @@ class IpfsTransaction extends BaseTransaction {
 
 	validateAsset() {
 		const errors = [];
-		if (!this.asset.ipfs || typeof this.asset.ipfs !== 'string' || this.asset.ipfs.length > 64) {
+		if (!this.asset.ipfs || typeof this.asset.ipfs !== 'string' || this.asset.ipfs.length > 128) {
 			errors.push(
 				new TransactionError(
 					'Invalid "asset.ipfs" defined on transaction',
 					this.id,
 					'.asset.ipfs',
 					this.asset.ipfs,
-					'A string value no longer than 64 characters',
+					'A string value no longer than 128 characters',
 				)
 			);
 		}
