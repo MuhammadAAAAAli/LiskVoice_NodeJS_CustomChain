@@ -3,4 +3,4 @@
 ### To RUN : 
 
 <li>npm install<br>
-<li>node app.js
+<li>node index.js | npx bunyan -o short
