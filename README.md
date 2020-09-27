@@ -1,6 +1,6 @@
-# LiskVoice_NodeJS_CustomChain
+# NodeJS CustomChain
 
-To RUN : 
+## To RUN : 
 
 npm install<br>
 node app.js
